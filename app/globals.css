@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 1rem;
+  background-color: hsl(180, 52%, 96%);
+}
+
+button:hover {
+  cursor: pointer;
+}
