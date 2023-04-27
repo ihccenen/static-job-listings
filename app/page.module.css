@@ -1,0 +1,33 @@
+.main {
+  font-size: 0.9375rem;
+  margin-inline: auto;
+  margin-bottom: 3em;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+  background-color: hsl(180, 29%, 50%);
+}
+
+.wrapper {
+  position: relative;
+  padding-inline: 1.6em;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 3.2rem;
+}
+
+@media (min-width: 750px) {
+  .jobs {
+    margin-top: 2.6rem;
+    gap: 1.5rem;
+  }
+}
